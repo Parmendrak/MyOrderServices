@@ -21,7 +21,7 @@ namespace MyOrderServices.Controllers
             return "value";
         }
 
-        // POST api/values
+        // POST api/
         public void Post([FromBody]string value)
         {
         }
