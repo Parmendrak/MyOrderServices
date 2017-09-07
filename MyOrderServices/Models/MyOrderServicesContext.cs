@@ -20,5 +20,7 @@ namespace MyOrderServices.Models
         }
 
         public System.Data.Entity.DbSet<MyOrderServices.Models.CustomerDetail> CustomerDetails { get; set; }
+
+        public System.Data.Entity.DbSet<MyOrderServices.Models.ProductDetail> ProductDetails { get; set; }
     }
 }
