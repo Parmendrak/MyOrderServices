@@ -16,6 +16,8 @@ namespace MyOrderServices.Models
 
         public string ProductCost { get; set; }
 
+        public byte[] ProductImage { get; set; }
+
         public string ManufacteringDate { get; set; }
 
     }
