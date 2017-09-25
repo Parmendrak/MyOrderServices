@@ -192,8 +192,10 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\CustomerDetails1Controller.cs" />
     <Compile Include="Controllers\CustomerDetailsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductDetails1Controller.cs" />
     <Compile Include="Controllers\ProductDetailsController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -238,7 +240,17 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Properties\PublishProfiles\myorder.pubxml" />
+    <None Include="Properties\PublishProfiles\MyServices3 - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\MyServices3 - FTP %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\MyServices3 - FTP %284%29.pubxml" />
+    <None Include="Properties\PublishProfiles\MyServices3 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\MyServices3 - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\MyServices3 - Web Deploy %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\MyServices3 - Web Deploy %284%29.pubxml" />
+    <None Include="Properties\PublishProfiles\MyServices3 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\MyWebServices1 - FTP %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\MyWebServices1 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\MyWebServices1 - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\MyWebServices1 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -261,6 +273,16 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\CustomerDetails1\Create.cshtml" />
+    <Content Include="Views\CustomerDetails1\Delete.cshtml" />
+    <Content Include="Views\CustomerDetails1\Details.cshtml" />
+    <Content Include="Views\CustomerDetails1\Edit.cshtml" />
+    <Content Include="Views\CustomerDetails1\Index.cshtml" />
+    <Content Include="Views\ProductDetails1\Create.cshtml" />
+    <Content Include="Views\ProductDetails1\Delete.cshtml" />
+    <Content Include="Views\ProductDetails1\Details.cshtml" />
+    <Content Include="Views\ProductDetails1\Edit.cshtml" />
+    <Content Include="Views\ProductDetails1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
